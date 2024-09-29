@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookWorm - Online Bookstore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #35424a;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #2c3e50;
+            color: white;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            margin-bottom: 60px;
+            padding: 20px;
+        }
+        .book {
+            background-color: white;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .book img {
+            max-width: 100px;
+            float: left;
+            margin-right: 15px;
+        }
+        footer {
+            background-color: #35424a;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BookWorm</h1>
+        <p>Online Bookstore</p>
+    </header>
+
+    <nav>
+        <ul>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Featured Books</h2>
+        <div class="book">
+            <img src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9780743273565/the-great-gatsby-9780743273565_hr.jpg" alt="Book 1">
+            <h3>The Great Gatsby</h3>
+            <p>Author: F. Scott Fitzgerald</p>
+            <p>Price: $12.99</p>
+        </div>
+        <div class="book">
+            <img src="https://cdn11.bigcommerce.com/s-gibnfyxosi/images/stencil/2560w/products/114990/116752/51IXWZzlgSL__41945.1615559130.jpg?c=1" alt="Book 2">
+            <h3>To Kill a Mockingbird</h3>
+            <p>Author: Harper Lee</p>
+            <p>Price: $14.99</p>
+        </div>
+        <div class="book">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/b468d093312907.5e6139cf2ab03.png" alt="Book 3">
+            <h3>1984</h3>
+            <p>Author: George Orwell</p>
+            <p>Price: $11.99</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 BookWorm. All rights reserved.</p>
+    </footer>
+</body>
+</html>
